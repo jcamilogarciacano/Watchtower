@@ -19,9 +19,15 @@ body {
 }
 
 .home_header {
-    font-size: 200%;
+    font-size: 250%;
 }
 
 .text-input, .btn-play, .description {
     font-size: 150%;
 }
+
+/* media queries */
+@media screen and (max-width: 500px) {
+    .home_header {
+        font-size: 170px;
+    }
